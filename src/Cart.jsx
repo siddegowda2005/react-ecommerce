@@ -21,6 +21,7 @@ function Cart() {
         }
 
         setOrder(prev => [...prev, cartObject]);
+        alert("Product Buyed Succusfully");
 
     }
 

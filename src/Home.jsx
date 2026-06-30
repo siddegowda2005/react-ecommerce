@@ -39,6 +39,7 @@ function Home() {
         setCart(prev => [...prev, obj]);
 
         console.log(cart);
+        alert("Added to Cart Succusfully")
 
     }
 
