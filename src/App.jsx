@@ -1,6 +1,6 @@
 import { useState, createContext } from 'react';
 import Nav from './Nav.jsx';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route ,Navigate } from 'react-router-dom';
 import Home from './Home.jsx';
 import About from './About.jsx';
 import Cart from './Cart.jsx';
@@ -31,7 +31,7 @@ function App() {
 
         <Routes>
           <Route path="/home" element={<Home />} />
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/about" element={<About />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/order" element={<Order />} />
