@@ -1,10 +1,11 @@
 import './About.css'
+import myPhoto from "./assets/myPhoto.png";
 function About(){
     return(
         <>
         <div className="aboutSection">
             <div className="img">
-                <img className ="images"src="./src/assets/myphoto.png" alt="not found" />
+                <img className ="images"src={myPhoto} alt="not found" />
             </div>
             <div className="name">
                 <h1>Name : Siddegowda BK</h1>
