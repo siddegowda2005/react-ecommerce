@@ -1,0 +1,36 @@
+.navItems{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 1px;
+    background-color: rgb(37, 32, 32);
+    color:white;
+    border-radius: 10px;
+}
+.navItem{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+.navItem:hover{
+    cursor: pointer;
+    background-color: azure;
+    color: black;
+}
+li{
+    list-style: none;
+}
+/* link{
+    list-style: none;
+} */
+

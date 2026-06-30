@@ -1,0 +1,23 @@
+.allCartProducts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    
+}
+.cartProduct{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 2px 8px black;
+    
+}
+.cartName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
